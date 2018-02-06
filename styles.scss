@@ -1,7 +1,31 @@
+$primary-color: orange;
+$padding: 50px 0px;
 body{
     background-color: black;
     padding: 0px 50px;
-    bottom: 3em;
 }
+
+.container{
+    padding: $padding;
+}
+
+section{
+    background-color: orange;
+}
+//-----Header
+
+header{
+    .logo{
+        border: solid black;
+        display: inline;
+
+    }
+}
+
+.padding{
+    padding: $padding;
+}
+
+
 
 /*# sourceMappingURL=styles.scss.map */
